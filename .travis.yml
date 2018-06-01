@@ -8,11 +8,11 @@ install:
 - pip install -U platformio
 
 env:
-- BOARD=uno
+#- BOARD=uno
 - BOARD=esp8266
 
 script:
 - set -eo pipefail;
-  for e in src; do
+  for e in src/*; do
     platformio ci --board=$BOARD --lib=. $e/*;
   done
