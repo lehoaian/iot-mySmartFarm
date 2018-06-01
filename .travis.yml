@@ -9,7 +9,7 @@ install:
 
 env:
 #- BOARD=uno
-- BOARD=Espressif 8266
+- BOARD=espressif8266
 
 script:
 - set -eo pipefail;
