@@ -9,9 +9,7 @@ install:
 
 env:
 - BOARD=uno
-- BOARD=leonardo
-- BOARD=megaatmega2560
-- BOARD=due
+- BOARD=esp8266
 
 script:
 - set -eo pipefail;
