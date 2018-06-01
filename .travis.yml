@@ -9,7 +9,7 @@ install:
 
 env:
 #- BOARD=uno
-- BOARD=espressif8266
+- BOARD=nodemcuv2
 
 script:
 - set -eo pipefail;
